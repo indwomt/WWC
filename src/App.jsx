@@ -2,13 +2,21 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
+import Navbar from './components/Navbar'
+// import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+
+    // add switch statement where content will change, leave out stuff that remains
+
     <>
+
+    <Navbar />
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
