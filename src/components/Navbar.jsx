@@ -8,7 +8,7 @@ function Navbar() {
 
         
 
-        <Nav className="justify-content-between" activeKey="/home">
+        <Nav className="navigation justify-content-between" activeKey="/home">
           <NavbarBrand>
           <h1>WWC</h1>
         </NavbarBrand>
