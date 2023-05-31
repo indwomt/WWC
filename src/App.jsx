@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import Navbar from './components/Navbar'
+import Contact from './components/Contact'
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <>
 
     <Navbar />
+    <Contact />
 
       <div>
         <a href="https://vitejs.dev" target="_blank">
