@@ -20,7 +20,7 @@ function Navigation() {
           <Nav.Link eventKey="link-1">Services</Nav.Link>
         </Nav.Item>
         <Nav.Item>
-          <Nav.Link eventKey="link-2">Contact</Nav.Link>
+          <Nav.Link href="/contact">Contact</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link eventKey="link-3">About</Nav.Link>

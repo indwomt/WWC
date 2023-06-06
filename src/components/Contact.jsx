@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 import { Container } from 'react-bootstrap';
 
 
-function Contact() {
+function Contactpage() {
 
 
     return (
@@ -26,4 +26,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default Contactpage
