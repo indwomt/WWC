@@ -7,7 +7,7 @@ function Contact() {
 
 
     return (
-      <Container className='col-6'>
+      <Container className='col-6 d-flex-col align-items-center'>
     <Form className='d-flex-col justify-content-start'>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Name</Form.Label>

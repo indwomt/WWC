@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Nav from 'react-bootstrap/Nav'
 import { NavbarBrand } from 'react-bootstrap'
 
-function Navbar() {
+function Navigation() {
     return (
         <>
 
@@ -33,4 +33,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navigation
