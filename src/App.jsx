@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Contact from './components/Contact'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home'
+import Footer from './components/Footer'
 
 
 
@@ -30,6 +31,7 @@ function App() {
     
     </Switch>
 
+    <Footer />
 </Router>
     
     </>
